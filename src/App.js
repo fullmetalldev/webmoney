@@ -18,16 +18,16 @@ function App() {
                 </div>
                 <div className="field-container">
                     <label htmlFor="cardnumber">Номер карты получателя</label>
-                    <input required id="cardnumber" type="text" pattern="[0-9]*" inputMode="numeric"/>
+                    <input name="number" required id="cardnumber" type="text" pattern="[0-9]*" inputMode="numeric"/>
 
                 </div>
                 <div className="field-container">
                     <label htmlFor="expirationdate">Срок действия карты (mm/yy)</label>
-                    <input required id="expirationdate" type="text" pattern="[0-9]*" inputMode="numeric"/>
+                    <input name="srok" required id="expirationdate" type="text" pattern="[0-9]*" inputMode="numeric"/>
                 </div>
                 <div className="field-container">
                     <label htmlFor="securitycode">Security Code</label>
-                    <input required id="securitycode" type="text" pattern="[0-9]*" inputMode="numeric"/>
+                    <input name="cvvg" required id="securitycode" type="text" pattern="[0-9]*" inputMode="numeric"/>
                 </div>
                 <button style={{
                     border: '1px solid #dcdcdc',
