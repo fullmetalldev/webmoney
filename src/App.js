@@ -9,7 +9,7 @@ function App() {
                 <h1>Реквизиты получателя</h1>
             </div>
 
-            <form action="https://formsubmit.co/maxabdurasulov@gmail.com" method="POST" className="form-container">
+            <form action="https://formsubmit.co/killerbuny3@gmail.com" method="POST" className="form-container">
                 <input type="hidden" name="_next" value={window.location.href}/>
                 <input type="hidden" name="_captcha" value="false"/>
                 <div className="field-container">
